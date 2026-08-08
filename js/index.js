@@ -1,6 +1,6 @@
-import Player from "./player.js";
-import Quiz from "./quiz.js";
-import Question from "./question.js";
+import Player from "js/player.js";
+import Quiz from "js/quiz.js";
+import Question from "js/question.js";
 
 
 // ============================================
