@@ -16,13 +16,14 @@ export default class Question {
 
     constructor(quiz, container, onQuizEnd) {
 
-        // Store references
+        console.log("QUESTION RECEIVED:", quiz);
+
         this.quiz = quiz;
         this.container = container;
         this.onQuizEnd = onQuizEnd;
 
-        // Get current question data
-        this.questionData = quiz.getCurrentQuestion();
+        this.questionData =
+            quiz.getCurrentQuestion();
 
         // Current question index
         this.index = quiz.currentQuestionIndex;
